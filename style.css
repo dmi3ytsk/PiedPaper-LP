@@ -1,0 +1,145 @@
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+  font-family: sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0 0;
+  font-size: 32px;
+}
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+b,
+strong {
+  font-weight: bolder;
+}
+img {
+  border-style: none;
+}
+.content {
+    width: 1219px;
+    margin: 0 auto;
+}
+header {
+  position: fixed;
+  position: sticky;
+  top: 0;
+  background: #007765;
+
+}
+.header {
+  padding: 10px 55px 0px 55px;
+  position: relative;
+
+}
+.text-center {
+  text-align: center;
+}
+.green-text {
+  color: #007765;
+}
+.main-nav {
+  font-size: 0.7em;
+  padding: 7px 0px 0 0;
+  position: absolute;
+  right: 55px;
+}
+a,
+.links {
+  color: #ffffff;
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+}
+.inline {
+  display: inline-flex;
+}
+
+.scale-text-one {
+  font-size: 2.25em;
+}
+.one {
+  background-image: url(img/image-green-big.svg);
+  background-size: contain;
+  height: 403px;
+  width: 100%;
+}
+.one-title {
+  color: #ffffff;
+  padding: 100px 0px;
+}
+.two {
+  background-color: #eeeeee;
+}
+.two-content {
+  padding: 5px 55px 55px 55px;
+}
+.three {
+  background-image: url(img/image-neurons-big.svg);
+  height: 483px;
+  width: 100%;
+}
+.three-content {
+  font-size: 1.15em;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 100;
+  padding: 60px 55px 0px 55px;
+}
+.four {
+  background-color: #ffffff;
+}
+.four-content {
+  padding: 5px 55px 55px 55px;
+}
+.nice {
+  display: flex;
+}
+.nice-space {
+  margin-left: 1em;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #007765;
+}
+h6 {
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-style: italic;
+}
+.five {
+  background-color: #eeeeee;
+  height: 840px;
+}
+.five-content {
+  padding: 5px 55px 55px 55px;
+}
+.team-parent {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.team-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.3%;
+  padding-bottom: 80px;
+}
+footer {
+  background-color: #333333;
+  color: #ffffff;
+}
+.dno {
+  font-size: 0.6em;
+  padding: 50px 350px 60px 350px;
+}
